@@ -1,0 +1,25 @@
+# A2: Python Excercises
+#Abril Celeste Herrera Escobar 1910116
+#Artificial Inteligence   J-N4
+personas= ["Ana", "Jhon","Peter"]
+name = input("Insert your name: ")
+if name not in personas:
+  print("Hello" , *name ,":)")
+  
+  
+  
+  # A2: Python Excercises
+#Abril Celeste Herrera Escobar 1910116
+#Artificial Inteligence   J-N4
+letras = [1, 2, 3, 4, 5]
+for i in range(len(letras)-1, -1, -1):
+    print(letras[i], end=" ")
+    
+    
+    # A2: Python Excercises
+#Abril Celeste Herrera Escobar 1910116
+#Artificial Inteligence   J-N4
+a = ["Hello", "my","name","is","Abril"]
+print("********")
+print( *a, sep = " \n *" )
+print("********")
